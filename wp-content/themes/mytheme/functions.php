@@ -550,3 +550,12 @@ function twentythirteen_customize_preview_js() {
 	wp_enqueue_script( 'twentythirteen-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20141120', true );
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
+
+function add_logout_link( $items, $args ) {
+    if (is_user_logged_in() /*&& $args->theme_location == 'primary-menu'*/) {
+    	$items .= '<li class="right-menu-item menu-item"><a href="'. wp_logout_url() .'">나의정보</a></li>';
+        $items .= '<li class="right-menu-item menu-item"><a href="'. wp_logout_url() .'">로그아웃</a></li>';
+    }
+    return $items;
+}
+add_filter( 'wp_nav_menu_items', 'add_logout_link', 10, 2 );

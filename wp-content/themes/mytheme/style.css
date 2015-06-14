@@ -3225,3 +3225,7 @@ footer.entry-meta {
 		color: #333;
 	}
 }
+
+.right-menu-item {
+	float: right; !important;
+}
