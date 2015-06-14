@@ -29,6 +29,7 @@ Styles for older IE versions (previous to IE9).
 
 .site-header .home-link {
 	max-width: 1040px;
+	text-decoration:none !important;
 }
 
 .site-header .search-form [type="search"],
