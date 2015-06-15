@@ -1110,7 +1110,7 @@ ul.nav-menu .focus > ul,
 	top: -1px;
 }
 
-.single-author .entry-meta .author,
+
 .sticky.format-standard .entry-meta .date,
 .sticky.format-audio .entry-meta .date,
 .sticky.format-chat .entry-meta .date,
@@ -1483,7 +1483,6 @@ footer.entry-meta {
 }
 
 .format-chat .entry-meta .author {
-	display: none;
 }
 
 .format-chat .chat {
@@ -1626,7 +1625,6 @@ footer.entry-meta {
 }
 
 .format-quote .entry-meta .author {
-	display: none;
 }
 
 /* Status */
@@ -2040,10 +2038,10 @@ footer.entry-meta {
 
 .archive-title,
 .archive-meta {
-	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 24px "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0 auto;
 	max-width: 1040px;
-	padding: 30px 0;
+	padding: 20px 0;
 	width: 100%;
 }
 

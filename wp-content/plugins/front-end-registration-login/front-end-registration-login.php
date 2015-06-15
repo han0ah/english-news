@@ -225,7 +225,7 @@ function pippin_add_new_member() {
 					'user_pass'	 		=> $user_pass,
 					'user_email'		=> $user_email,
 					'user_registered'	=> date('Y-m-d H:i:s'),
-					'role'				=> 'subscriber'
+					'role'				=> 'author'
 				)
 			);
 			if($new_user_id) {
