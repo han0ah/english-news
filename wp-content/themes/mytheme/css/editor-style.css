@@ -30,12 +30,12 @@ Description: Used to style the TinyMCE editor.
 
 html .mceContentBody {
 	font-size: 100%;
-	max-width: 604px;
+	max-width: 684px;
 }
 
 body {
 	color: #141412;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Nanum Gothic", Helvetica, sans-serif;
 	line-height: 1.5;
 	text-rendering: optimizeLegibility;
 	vertical-align: baseline;
@@ -103,7 +103,7 @@ hr {
  */
 
 p {
-	margin: 0 0 24px;
+	margin: 0 0 18px;
 }
 
 ol,

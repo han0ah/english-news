@@ -817,14 +817,15 @@ img.wp-smiley,
 
 .site-header {
 	position: relative;
+	background-color: #3bb878;
 }
 
 .site-header .home-link {
-	color: #141412;
+	color: #f0f0f0;
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 230px;
+	min-height: 150px;
 	padding: 0 20px;
 	text-decoration: none;
 	width: 100%;
@@ -835,11 +836,11 @@ img.wp-smiley,
 }
 
 .site-title {
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: bold;
 	line-height: 1;
 	margin: 0;
-	padding: 58px 0 10px;
+	padding: 48px 0 10px;
 }
 
 .site-description {
@@ -873,7 +874,7 @@ div.nav-menu > ul {
 }
 
 .nav-menu li a {
-	color: #141412;
+	color: #a6a6a6;
 	display: block;
 	font-size: 17px;
 	line-height: 1;
@@ -939,7 +940,7 @@ ul.nav-menu .focus > ul,
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
-	color: #bc360a;
+	color: #ffffff;
 	font-weight: bold;
 }
 
@@ -949,7 +950,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
+	background-color: #323232;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
@@ -993,7 +994,7 @@ ul.nav-menu .focus > ul,
  */
 
 .hentry {
-	padding: 40px 0;
+	padding: 30px 0;
 }
 
 .entry-header,
@@ -2572,7 +2573,7 @@ footer.entry-meta {
 }
 
 .site-footer .sidebar-container {
-	background-color: #220e10;
+	background-color: #161616;
 	padding: 20px 0;
 }
 
@@ -2606,7 +2607,7 @@ footer.entry-meta {
 }
 
 .site-footer .widget a {
-	color: #e6402a;
+	color: #a6a6a6;
 }
 
 .site-footer .widget-title,
